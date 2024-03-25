@@ -1,4 +1,4 @@
-dateModified: 1711394782
+dateModified: 1711404187
 email:
   fromEmail: support@craftcms.com
   fromName: 'Spoke & Chain'
@@ -205,6 +205,10 @@ plugins:
       logInfo: false
       override: ''
       userDashboard: '1'
+  gift-voucher:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.8
   guide:
     edition: lite
     enabled: true
