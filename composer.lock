@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "617345b6d4b63cbe427e22f1813b8a1d",
+    "content-hash": "87a5a9837e345fe3df9c0455d49519bb",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -8473,6 +8473,65 @@
                 }
             ],
             "time": "2023-09-19T11:07:30+00:00"
+        },
+        {
+            "name": "verbb/gift-voucher",
+            "version": "3.0.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/verbb/gift-voucher.git",
+                "reference": "d0b5263fd856ec2651e4bb06522afa782f36112b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/verbb/gift-voucher/zipball/d0b5263fd856ec2651e4bb06522afa782f36112b",
+                "reference": "d0b5263fd856ec2651e4bb06522afa782f36112b",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^4.0.0",
+                "craftcms/commerce": "^4.0.0",
+                "php": "^8.0.2",
+                "verbb/base": "^2.0.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Gift Voucher",
+                "handle": "gift-voucher",
+                "changelogUrl": "https://raw.githubusercontent.com/verbb/gift-voucher/craft-4/CHANGELOG.md",
+                "class": "verbb\\giftvoucher\\GiftVoucher"
+            },
+            "autoload": {
+                "psr-4": {
+                    "verbb\\giftvoucher\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Verbb",
+                    "homepage": "https://verbb.io"
+                }
+            ],
+            "description": "Sell and redeem digital gift vouchers for Craft Commerce.",
+            "keywords": [
+                "Craft",
+                "cms",
+                "craft-plugin",
+                "craftcms",
+                "gift voucher"
+            ],
+            "support": {
+                "docs": "https://github.com/verbb/gift-voucher",
+                "email": "support@verbb.io",
+                "issues": "https://github.com/verbb/gift-voucher/issues?state=open",
+                "rss": "https://github.com/verbb/gift-voucher/commits/v2.atom",
+                "source": "https://github.com/verbb/gift-voucher"
+            },
+            "time": "2024-03-03T23:30:08+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
