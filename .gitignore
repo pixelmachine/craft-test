@@ -1,0 +1,11 @@
+/.env
+/.idea
+/vendor
+.DS_Store
+/src/node_modules
+config.codekit3
+*.sublime-project
+*.sublime-workspace
+templates/shop/pdf
+/web*/cache
+.ddev
