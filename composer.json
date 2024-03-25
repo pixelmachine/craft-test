@@ -35,7 +35,8 @@
     "putyourlightson/craft-sprig": "^2.0.0-beta.1",
     "stripe/stripe-php": "^10.0",
     "verbb/default-dashboard": "^2.0.0-beta.1",
-    "vlucas/phpdotenv": "^5.4.1"
+    "vlucas/phpdotenv": "^5.4.1",
+    "yiisoft/yii2-redis": "^2.0"
   },
   "require-dev": {
     "craftcms/ecs": "dev-main",
