@@ -39,5 +39,19 @@ return [
                 ]
             ] : [],
         ],
+        'redis' => [
+            'class' => yii\redis\Connection::class,
+            'hostname' => App::env('REDIS_HOSTNAME'),
+            'password' => App::env('REDIS_PASSWORD'),
+            'port' => 6379,
+        ],
+        'cache' => function() {
+            $config = [
+                'class' => yii\redis\Cache::class,
+                'keyPrefix' => Craft::$app->id,
+                'defaultDuration' => Craft::$app->config->general->cacheDuration,
+            ];
+            return Craft::createObject(App::env('REDIS_ENABLED') ? $config : App::cacheConfig());
+        },
     ]
 ];
