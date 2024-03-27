@@ -46,3 +46,9 @@
     </form>
   </div>
 </div>
+
+{% if sprig.isRequest %}
+  {% tag 'script' %}
+    htmx.trigger('#form-payment', 'refresh');
+  {% endtag %}
+{% endif %}
